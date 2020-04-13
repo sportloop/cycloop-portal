@@ -36,8 +36,8 @@ const Section = styled.section`
 `;
 
 const SectionTitle = styled.h3`
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 400;
   color: #bbb;
 `;
 
@@ -58,6 +58,7 @@ const SectionLink = styled.a`
 const Copyright = styled.p`
   font-size: 1.3rem;
   color: #ccc;
+  padding-top: 1rem;
 `;
 
 const Footer: FC = () => {
