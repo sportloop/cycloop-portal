@@ -1,6 +1,8 @@
 import { FC } from "react";
 import { styled } from "linaria/react";
 import Head from "next/head";
+import Link from "next/link";
+
 import Logo from "../components/Logo";
 
 const Heading = styled.header`
@@ -12,8 +14,10 @@ const Heading = styled.header`
 `;
 
 const Title = styled.h1`
+const Title = styled.a`
   font-size: 5rem;
   line-height: 0;
+  color: #fff;
 `;
 
 const Button = styled.button`
@@ -37,6 +41,11 @@ const Index: FC = () => {
         <Title>
           <Logo />
         </Title>
+        <Link href="/" passHref>
+          <Title>
+            <Logo />
+          </Title>
+        </Link>
         <Button>Sign up</Button>
       </Heading>
     </>
