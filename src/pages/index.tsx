@@ -2,12 +2,12 @@ import { FC } from "react";
 import { styled } from "linaria/react";
 import Head from "next/head";
 
-const Container = styled.main`
+const Heading = styled.header`
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  justify-content: space-between;
+  padding: 1.6rem 2.4rem;
+  border-bottom: 1px solid #333;
 `;
 
 const Title = styled.h1`
@@ -15,10 +15,13 @@ const Title = styled.h1`
   font-weight: 400;
 `;
 
-const Subtitle = styled.h3`
-  font-size: 2.8rem;
-  font-weight: 500;
-  color: #ccc;
+const Button = styled.button`
+  border: 1px solid #999;
+  border-radius: 0.6rem;
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.6rem 1rem;
+  background: transparent;
 `;
 
 const Index: FC = () => {
@@ -27,10 +30,12 @@ const Index: FC = () => {
       <Head>
         <title>Cycloop - do what it takes</title>
       </Head>
-      <Container>
-        <Title>cycloop</Title>
-        <Subtitle>do what it takes</Subtitle>
-      </Container>
+      <Heading>
+        <Title>
+          <Logo />
+        </Title>
+        <Button>Sign up</Button>
+      </Heading>
     </>
   );
 };
