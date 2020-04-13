@@ -2,6 +2,7 @@ import { FC } from "react";
 import Head from "next/head";
 
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 import Header from "../components/Header";
 
 const Index: FC = () => {
@@ -13,6 +14,7 @@ const Index: FC = () => {
         <meta name="description" content="do what it takes" />
       </Head>
       <Header />
+      <Hero />
       <Footer />
     </>
   );
