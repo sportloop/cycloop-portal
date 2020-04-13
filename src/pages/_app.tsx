@@ -1,5 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { styled } from "linaria/react";
+import { NextComponentType } from "next";
+import { AppContext, AppInitialProps, AppProps } from "next/app";
 
 import "typeface-nunito";
 import "typeface-poppins";
@@ -36,7 +38,10 @@ const Container = styled.div`
   }
 `;
 
-const App = ({ Component, pageProps }) => {
+const App: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
+  Component,
+  pageProps,
+}) => {
   return (
     <Container>
       <Component {...pageProps} />
