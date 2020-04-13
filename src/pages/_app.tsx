@@ -9,7 +9,8 @@ import "typeface-poppins";
 import useViewport from "../hooks/useViewport";
 
 const Container = styled.div<{ viewportHeight: number }>`
-  --vh: ${(props) => props.viewportHeight / 100}px;
+  --vh: ${({ viewportHeight }) =>
+    viewportHeight ? `${viewportHeight / 100}px` : "1vh"};
 
   :global() {
     html {

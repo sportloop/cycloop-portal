@@ -1,4 +1,4 @@
-import { useState, useCallback, useLayoutEffect } from "react";
+import { useState, useCallback, useEffect } from "react";
 
 const useViewport = () => {
   const [dimensions, apply] = useState({ width: 0, height: 0 });
@@ -7,7 +7,7 @@ const useViewport = () => {
     apply({ width: window.innerWidth, height: window.innerHeight });
   }, []);
   // eslint-disable-next-line consistent-return
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (typeof window !== "undefined") {
       setDimensions();
       window.addEventListener("scroll", setDimensions, { passive: true });
