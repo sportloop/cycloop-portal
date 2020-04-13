@@ -1,36 +1,21 @@
 import { FC } from "react";
-import { styled } from "linaria/react";
 import Head from "next/head";
 
-const Container = styled.main`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-`;
-
-const Title = styled.h1`
-  font-size: 6rem;
-  font-weight: 400;
-`;
-
-const Subtitle = styled.h3`
-  font-size: 2.8rem;
-  font-weight: 500;
-  color: #ccc;
-`;
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Header from "../components/Header";
 
 const Index: FC = () => {
   return (
     <>
       <Head>
         <title>Cycloop - do what it takes</title>
+        <meta name="title" content="Cycloop" />
+        <meta name="description" content="do what it takes" />
       </Head>
-      <Container>
-        <Title>cycloop</Title>
-        <Subtitle>do what it takes</Subtitle>
-      </Container>
+      <Header />
+      <Hero />
+      <Footer />
     </>
   );
 };
