@@ -38,9 +38,6 @@ const Index: FC = () => {
         <meta name="description" content="do what it takes" />
       </Head>
       <Heading>
-        <Title>
-          <Logo />
-        </Title>
         <Link href="/" passHref>
           <Title>
             <Logo />
