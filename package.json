@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "develop": "next dev",
+    "develop": "next dev --hostname 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "test": "jest"
