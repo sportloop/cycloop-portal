@@ -88,6 +88,11 @@ const Footer: FC = () => {
               <SectionLink>Contribute</SectionLink>
             </Link>
           </SectionItem>
+          <SectionItem>
+            <Link href="/roadmap" passHref>
+              <SectionLink>Roadmap</SectionLink>
+            </Link>
+          </SectionItem>
         </SectionItems>
       </Section>
       <Section>
