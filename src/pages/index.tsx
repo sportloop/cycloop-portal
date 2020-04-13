@@ -4,6 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import Logo from "../components/Logo";
+import Footer from "../components/Footer";
 
 const Heading = styled.header`
   display: flex;
@@ -13,7 +14,6 @@ const Heading = styled.header`
   border-bottom: 1px solid #333;
 `;
 
-const Title = styled.h1`
 const Title = styled.a`
   font-size: 5rem;
   line-height: 0;
@@ -48,6 +48,7 @@ const Index: FC = () => {
         </Link>
         <Button>Sign up</Button>
       </Heading>
+      <Footer />
     </>
   );
 };
