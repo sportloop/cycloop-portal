@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { styled } from "linaria/react";
 import Head from "next/head";
+import Logo from "../components/Logo";
 
 const Heading = styled.header`
   display: flex;
