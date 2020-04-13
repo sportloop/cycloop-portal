@@ -30,6 +30,8 @@ const Index: FC = () => {
     <>
       <Head>
         <title>Cycloop - do what it takes</title>
+        <meta name="title" content="Cycloop" />
+        <meta name="description" content="do what it takes" />
       </Head>
       <Heading>
         <Title>
