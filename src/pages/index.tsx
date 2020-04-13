@@ -12,8 +12,8 @@ const Heading = styled.header`
 `;
 
 const Title = styled.h1`
-  font-size: 6rem;
-  font-weight: 400;
+  font-size: 5rem;
+  line-height: 0;
 `;
 
 const Button = styled.button`
