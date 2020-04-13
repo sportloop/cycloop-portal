@@ -6,7 +6,11 @@ import { AppContext, AppInitialProps, AppProps } from "next/app";
 import "typeface-nunito";
 import "typeface-poppins";
 
-const Container = styled.div`
+import useViewport from "../hooks/useViewport";
+
+const Container = styled.div<{ viewportHeight: number }>`
+  --vh: ${(props) => props.viewportHeight / 100}px;
+
   :global() {
     html {
       box-sizing: border-box;
@@ -42,8 +46,9 @@ const App: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
   Component,
   pageProps,
 }) => {
+  const { height } = useViewport();
   return (
-    <Container>
+    <Container viewportHeight={height}>
       <Component {...pageProps} />
     </Container>
   );
