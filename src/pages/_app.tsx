@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
+import * as React from "react";
 import { styled } from "linaria/react";
 import { NextComponentType } from "next";
 import { AppContext, AppInitialProps, AppProps } from "next/app";

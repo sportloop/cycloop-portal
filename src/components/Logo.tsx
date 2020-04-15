@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
+import * as React from "react";
 import { forwardRef } from "react";
 
 interface SVGRProps {
