@@ -1,9 +1,12 @@
 module.exports = {
   preset: "ts-jest",
-  testEnvironment: "node",
+  testEnvironment: "jsdom",
   globals: {
     "ts-jest": {
       babelConfig: true,
     },
+  },
+  transform: {
+    "^.+\\.[t|j]sx?$": "babel-jest",
   },
 };

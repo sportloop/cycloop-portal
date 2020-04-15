@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home screen snapshot tests matches snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="cwue83p"
+  >
+    <a
+      class="tfrfs33"
+      href="/"
+    >
+      <svg
+        height="0.5555em"
+        viewBox="0 0 315 175"
+        width="1em"
+      >
+        <path
+          d="M227.5 0A87.5 87.5 0 00140 87.5a52.5 52.5 0 11-8.4-28.4 99.8 99.8 0 0117.5-33.7A87.5 87.5 0 10175 87.5a52.5 52.5 0 115.7 23.8 99.8 99.8 0 01-17 36A87.5 87.5 0 10227.5 0z"
+          fill="currentColor"
+        />
+      </svg>
+    </a>
+    <button
+      class="b63g0gq"
+    >
+      Sign up
+    </button>
+  </header>
+  <section
+    class="c1c0cw29"
+  >
+    <h2
+      class="t5zx6kd"
+    >
+      cycloop
+    </h2>
+    <h3
+      class="dtznj3k"
+    >
+      Activity tracking inside and out
+    </h3>
+  </section>
+  <footer
+    class="c1a1me05"
+  >
+    <section
+      class="sibpx3b"
+    >
+      <h3
+        class="t1aekpxx"
+      >
+        <svg
+          height="0.5555em"
+          viewBox="0 0 315 175"
+          width="1em"
+        >
+          <path
+            d="M227.5 0A87.5 87.5 0 00140 87.5a52.5 52.5 0 11-8.4-28.4 99.8 99.8 0 0117.5-33.7A87.5 87.5 0 10175 87.5a52.5 52.5 0 115.7 23.8 99.8 99.8 0 01-17 36A87.5 87.5 0 10227.5 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </h3>
+      <p
+        class="c1dhrztl"
+      >
+        ©2020 Cycloop
+      </p>
+    </section>
+    <section
+      class="sibpx3b"
+    >
+      <h3
+        class="s1txp0jg"
+      >
+        Menu
+      </h3>
+      <ul
+        class="s11yjwl9"
+      >
+        <li
+          class="s15cpdnc"
+        >
+          <a
+            class="s1qs8i2k"
+            href="/features"
+          >
+            Features
+          </a>
+        </li>
+        <li
+          class="s15cpdnc"
+        >
+          <a
+            class="s1qs8i2k"
+            href="/pricing"
+          >
+            Pricing
+          </a>
+        </li>
+        <li
+          class="s15cpdnc"
+        >
+          <a
+            class="s1qs8i2k"
+            href="/contribute"
+          >
+            Contribute
+          </a>
+        </li>
+        <li
+          class="s15cpdnc"
+        >
+          <a
+            class="s1qs8i2k"
+            href="/roadmap"
+          >
+            Roadmap
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section
+      class="sibpx3b"
+    >
+      <h3
+        class="s1txp0jg"
+      >
+        Social
+      </h3>
+      <ul
+        class="s11yjwl9"
+      >
+        <li
+          class="s15cpdnc"
+        >
+          <a
+            class="s1qs8i2k"
+            href="https://github.com/sportloop"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section
+      class="sibpx3b"
+    >
+      <h3
+        class="s1txp0jg"
+      >
+        Get Started
+      </h3>
+    </section>
+  </footer>
+</DocumentFragment>
+`;
