@@ -3,6 +3,7 @@ import * as React from "react";
 import { styled } from "linaria/react";
 import { NextComponentType } from "next";
 import { AppContext, AppInitialProps, AppProps } from "next/app";
+import { DefaultSeo } from "next-seo";
 
 import "typeface-nunito";
 import "typeface-poppins";
@@ -51,6 +52,16 @@ const App: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
   const { height } = useViewport();
   return (
     <Container viewportHeight={height}>
+      <DefaultSeo
+        title="Cycloop - do what it takes"
+        description="Activity tracking inside and out"
+        canonical="https://cycloop.bike"
+        openGraph={{
+          url: "https://cycloop.bike",
+          title: "Cycloop - do what it takes",
+          description: "Activity tracking inside and out",
+        }}
+      />
       <Component {...pageProps} />
     </Container>
   );
