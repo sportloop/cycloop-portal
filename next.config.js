@@ -1,6 +1,7 @@
 const withCSS = require("@zeit/next-css");
 const withOffline = require("next-offline");
 const withPlugins = require("next-compose-plugins");
+const optimizedImages = require("next-optimized-images");
 
 module.exports = withPlugins([
   [
@@ -67,4 +68,5 @@ module.exports = withPlugins([
       },
     },
   ],
+  [optimizedImages, { optimizeImagesInDev: true }],
 ]);

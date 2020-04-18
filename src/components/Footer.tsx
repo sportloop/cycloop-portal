@@ -8,6 +8,7 @@ const Container = styled.footer`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 2rem;
 `;
 
 const Title = styled.h3`
