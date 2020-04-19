@@ -12,7 +12,7 @@ const Container = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 20vh 2rem;
+  padding: calc(6.4rem + 20vh) 2rem 20vh;
   text-align: center;
   position: relative;
 `;

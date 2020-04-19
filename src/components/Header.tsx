@@ -5,11 +5,13 @@ import Link from "next/link";
 import Logo from "./Logo";
 
 const Container = styled.header`
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.6rem 2.4rem;
-  border-bottom: 1px solid #333;
 `;
 
 const Title = styled.a`
