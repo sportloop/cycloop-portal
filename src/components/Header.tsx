@@ -5,11 +5,13 @@ import Link from "next/link";
 import Logo from "./Logo";
 
 const Container = styled.header`
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.6rem 2.4rem;
-  border-bottom: 1px solid #333;
 `;
 
 const Title = styled.a`
@@ -18,13 +20,11 @@ const Title = styled.a`
   color: #fff;
 `;
 
-const Button = styled.button`
-  border: 1px solid #999;
-  border-radius: 0.6rem;
-  color: white;
-  font-size: 1.6rem;
-  padding: 0.6rem 1rem;
-  background: transparent;
+const Anchor = styled.a`
+  font-size: 2.2rem;
+  line-height: 0;
+  color: #fff;
+  margin-left: 1.2rem;
 `;
 
 const Header: FC = () => {
@@ -35,7 +35,12 @@ const Header: FC = () => {
           <Logo />
         </Title>
       </Link>
-      <Button>Sign up</Button>
+      <div>
+        <Anchor href="https://cycloop.app">app</Anchor>
+        <Link href="/auth" passHref>
+          <Anchor>sign up</Anchor>
+        </Link>
+      </div>
     </Container>
   );
 };
