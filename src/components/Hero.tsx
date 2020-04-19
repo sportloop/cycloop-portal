@@ -47,12 +47,11 @@ const Hero: FC = () => {
   return (
     <Container>
       <picture>
-        <source
-          srcSet={bannerSizes.srcSet}
-          src={bannerSizes.src}
-          type="image/jpg"
+        <source srcSet={bannerSizes.srcSet} type="image/jpg" />
+        <Image
+          src={banner1200}
+          alt="greyscale image of a cyclist from the side"
         />
-        <Image src={banner1200} />
       </picture>
       <Title>cycloop</Title>
       <Description>Activity tracking inside and out</Description>
