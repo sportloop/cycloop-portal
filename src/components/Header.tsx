@@ -31,7 +31,7 @@ const Header: FC = () => {
   return (
     <Container>
       <Link href="/" passHref>
-        <Title>
+        <Title aria-label="logo link to home">
           <Logo />
         </Title>
       </Link>
