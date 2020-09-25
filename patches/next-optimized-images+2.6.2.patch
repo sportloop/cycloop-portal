@@ -1,0 +1,13 @@
+diff --git a/node_modules/next-optimized-images/lib/loaders/index.js b/node_modules/next-optimized-images/lib/loaders/index.js
+index 6bd690b..627ea98 100644
+--- a/node_modules/next-optimized-images/lib/loaders/index.js
++++ b/node_modules/next-optimized-images/lib/loaders/index.js
+@@ -45,7 +45,7 @@ const detectLoaders = (resolvePath) => {
+   }
+ 
+   if (isModuleInstalled('responsive-loader', resolvePath)) {
+-    responsive = require.resolve('responsive-loader', resolvePath ? { paths: [resolvePath] } : undefined).replace(/(\/|\\)lib(\/|\\)index.js$/g, '');
++    responsive = require.resolve('responsive-loader', resolvePath ? { paths: [resolvePath] } : undefined).replace(/(\/|\\)lib(\/|\\)(index|cjs).js$/g, '');
+ 
+     if (isModuleInstalled('sharp', resolvePath)) {
+       responsiveAdapter = 'sharp';
