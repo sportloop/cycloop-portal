@@ -15,8 +15,8 @@
     "next-seo": "4.11.0",
     "patch-package": "6.2.2",
     "postinstall-postinstall": "2.1.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "typeface-nunito": "1.1.13",
     "typeface-poppins": "0.0.72"
   },
