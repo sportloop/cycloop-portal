@@ -10,7 +10,7 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "linaria": "1.3.3",
+    "linaria": "1.4.0",
     "next": "9.5.5",
     "next-seo": "4.14.0",
     "patch-package": "6.2.2",
