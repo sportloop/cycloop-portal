@@ -21,8 +21,8 @@
     "typeface-poppins": "0.0.72"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.2.0",
-    "@commitlint/config-conventional": "17.2.0",
+    "@commitlint/cli": "17.8.1",
+    "@commitlint/config-conventional": "17.8.1",
     "@testing-library/react": "13.4.0",
     "@types/jest": "29.2.3",
     "@types/node": "18.11.9",
